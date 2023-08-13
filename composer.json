@@ -1,0 +1,32 @@
+{
+  "name": "geega/php-micro-cli",
+  "description": "CLI",
+  "version": "0.0.1",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "geega",
+      "email": "varpihovsky@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Geega\\Micro\\Cli\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "prs-4": {
+      "Geega\\Micro\\Cli\\Tests": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.7.1",
+    "phpunit/phpunit": "9.5.27"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit tests"
+  }
+}
