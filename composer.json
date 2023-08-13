@@ -1,6 +1,6 @@
 {
   "name": "geega/php-micro-cli",
-  "description": "CLI",
+  "description": "CLI for PHP Micro Framework",
   "version": "0.0.1",
   "minimum-stability": "dev",
   "authors": [
