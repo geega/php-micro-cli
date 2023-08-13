@@ -1,2 +1,2 @@
 # php-micro-cli
-Simple php micro CLI framework
+Simple CLI package for php micro framework
